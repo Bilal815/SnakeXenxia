@@ -1,4 +1,5 @@
 import pygame, sys
+from game import Game
 
 #   clear the program
 #   update the game
@@ -50,9 +51,11 @@ pygame.init()
 DISPLAYSURF = pygame.display.set_mode((800, 600))
 BASICFONT = pygame.font.Font('freesansbold.ttf', 18)
 CLOCK = pygame.time.Clock()
-pygame.display.set_caption('Wormy')
+pygame.display.set_caption('Snake Xenzia')
 
 def main():
     game = Game()
     game.run()
     sys.exit
+    print("GAME RUNS!")
+main()

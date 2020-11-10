@@ -11,7 +11,7 @@ class Game():
             (Config.WINDOW_WIDTH, Config.WINDOW_HEIGHT))
         self.clock = pygame.time.Clock()
         self.BASICFONT = pygame.font.Font('freesansbold.ttf', 18)
-        pygame.display.set_caption('Wormy')
+        pygame.display.set_caption('Snake Xenzia')
         self.apple = Apple()
         self.snake = Snake()
     
